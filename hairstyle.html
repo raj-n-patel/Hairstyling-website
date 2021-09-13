@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Comptible" content="ie=edge">
+    <title>hairstyling</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+
+
+    <section class="gallery">    
+        <div class="hairstyling-title">
+             <h1>Gallery</h1>
+             <h2>Our images and videos will give you an insight into the world of our styling.</h2>
+         </div> 
+ 
+    <div class="image-gallery">
+         <div class="img-gallery">
+             <a href="images/h1.jpg"><img class="grid-image" src="images/h1.jpg" alt=""></a>
+             <a href="images/h2.jpg"><img class="grid-image" src="images/h2.jpg" alt=""></a>
+             <a href="images/h3.jpg"><img class="grid-image" src="images/h3.jpg" alt=""></a>
+             <a href="images/h4.jpg"><img class="grid-image" src="images/h4.jpg" alt=""></a>
+             <a href="images/h5.jpg"><img class="grid-image" src="images/h5.jpg" alt=""></a>
+             <a href="images/h6.jpg"><img class="grid-image" src="images/h6.jpg" alt=""></a>
+      
+        
+            <a href="images/h7.jpg"><img class="grid-image" src="images/h7.jpg" alt=""></a>
+            <a href="images/h8.jpg"><img class="grid-image"src="images/h8.jpg" alt=""></a>
+            <a href="images/h9.jpg"><img class="grid-image" src="images/h9.jpg" alt=""></a>
+            <a href="images/h10.jpg"><img class="grid-image" src="images/h10.jpg" alt=""></a>
+            <a href="images/h11.jpg"><img class="grid-image" src="images/h11.jpg" alt=""></a>
+            <a href="images/h12.jpg"><img class="grid-image" src="images/h12.jpg" alt=""></a>
+     
+           </div>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+  <script>
+      lightGallery(document.querySelector('.img-gallery'));
+  </script>
+
+
+
+
+<section class="social">
+    <div class="max-width">
+        <h6 class="social-title">For booking/inquires DM us on social media</h6>
+    <div class="socials">
+        <div class="icon2">
+          <a href="https://www.facebook.com/vishwa.patel.7712826"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div class="icon2">
+          <a href="https://instagram.com/vishwa_hairstylist?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+
+     </div>
+</section>
+
+
+<!--  footer section start -->
+<footer>
+    <div class="footer-bottom">
+        <p>Copyright &copy; 2021 by Raj Patel. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+<script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVideo = document.getElementById("myVideo");
+
+    function stopVideo(){
+        videoPlayer.style.display = "none";
+        myVideo.pause();
+        myVideo.currentTime = 0;
+    }
+
+    function playVideo(file){
+        myVideo.src = file;
+        videoPlayer.style.display = "block";
+        myVideo.play();
+    }
+</script>
+</body>
+</html>                 
+
+
